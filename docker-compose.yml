@@ -3,7 +3,7 @@ services:
     app:
         container_name: application
         build:
-            context: .docker
+            context: .
             dockerfile: Dockerfile.dev
         extra_hosts:
             - 'host.docker.internal:host-gateway'
